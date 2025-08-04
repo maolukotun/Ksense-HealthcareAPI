@@ -2,7 +2,7 @@
 import fetch from 'node-fetch';
 
 const API_URL = "https://assessment.ksensetech.com/api/patients?page=1&limit=10";
-const API_KEY = "ak_ac53950382fb2e2781056cba6c25a0db8c30b29ef83c78fa";
+const API_KEY = "";
 
 // Helper functions remain unchanged
 function parseBP(bp) {
@@ -127,3 +127,4 @@ async function analyzePatients() {
 
 
 analyzePatients();
+
